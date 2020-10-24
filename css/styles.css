@@ -1,18 +1,13 @@
 * {
   font-family: 'Rubik', sans-serif;
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
 /* Start Header */
 .header {
-  background-image: url('../images/pattern-bg.png');
+  height: 30vh;
+  background: url('../images/pattern-bg.png');
+
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -23,8 +18,29 @@
 }
 
 .header_search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_search__input {
   height: 50px;
-  width: 400px;
-  margin: 20px;
+  width: 450px;
+
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  padding-left: 15px;
+}
+
+.header_search__icon {
+  height: 50px;
+  width: 50px;
+  background: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0px 10px 10px 0px;
 }
 /* End Header */
