@@ -4,7 +4,7 @@
 
 /* Start Header */
 .header {
-  height: 30vh;
+  height: 40vh;
   background: url('../images/pattern-bg.png');
 
   display: flex;
@@ -44,3 +44,54 @@
   border-radius: 0px 10px 10px 0px;
 }
 /* End Header */
+
+/* Start Infos */
+.sectionInfos {
+  width: 70%;
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+
+.sectionInfos_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  background-color: #fff;
+  border-radius: 20px;
+  height: 150px;
+}
+.sectionInfos_grid__box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+.sectionInfos_grid__box::before {
+  content: ' ';
+  position: absolute;
+  width: 1px;
+  right: 1px;
+  height: 30px;
+  background-color: hsl(0, 0%, 59%);
+}
+
+.sectionInfos_grid__box span {
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
+}
+
+.sectionInfos_grid__box p {
+  font-size: 22px;
+  font-weight: bold;
+}
+/* End Infos */
+/* Start Map */
+.map {
+  margin-top: -25vh;
+  height: 60vh;
+  background-color: gray;
+}
+/* End Map */
