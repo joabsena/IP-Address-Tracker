@@ -1,0 +1,30 @@
+* {
+  font-family: 'Rubik', sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* Start Header */
+.header {
+  background-image: url('../images/pattern-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_title {
+  text-align: center;
+  color: white;
+}
+
+.header_search {
+  height: 50px;
+  width: 400px;
+  margin: 20px;
+}
+/* End Header */
