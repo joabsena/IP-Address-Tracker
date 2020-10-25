@@ -35,11 +35,12 @@ const getIp = (defaultIp) => {
   } else {
     var ipUrl = `https://geo.ipify.org/api/v1?apiKey=at_fkrlvfpirtP6pOCGSplVjaRU9sbmg&ipAddress=${defaultIp}`;
   }
+
   fetch(ipUrl)
     .then((response) => response.json())
     .then((data) => {
       ipAddress.innerHTML = data.ip;
-      currentTown.innerHTML = `${data.location.city} ${data.location.country} ${data.location.postalCode}`;
+      currentTown.innerHTML = `${data.location.city}, ${data.location.country}, ${data.location.postalCode}`;
       currentZone.innerHTML = data.location.timezone;
       currentIsp.innerHTML = data.isp;
 
