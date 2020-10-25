@@ -34,42 +34,42 @@
     <!-- Header -->
     <header class="header">
       <h1 class="header_title">IP Address Tracker</h1>
-      <div class="header_search">
+      <form class="header_search">
         <input
         class="header_search__input"
           type="text"
           placeholder="Search for any IP address or domain"
         >
-        <div class="header_search__icon">
-          <img src="./images/icon-arrow.svg" alt="">
-        </div>
-      </input>
-    </div>
-    </header>
+        <button class="header_search__btn">
+          <img class="header_search__icon" src="./images/icon-arrow.svg" alt="">
+        </button>
+      </f>
+    </form>
     <!-- BoxInfos -->
     <section class="sectionInfos">
       <div class="sectionInfos_grid">
         <div class="sectionInfos_grid__box">
           <span>IP ADDRESS</span>
-          <p>192.212.174.101</p>
+          <p id="ipAddress">192.212.174.101</p>
         </div>
         <div class="sectionInfos_grid__box">
           <span>LOCATION</span>
-          <p>Brooklyn, NY, 10001</p>
+          <p id="current_town">Brooklyn, NY, 10001</p>
         </div>
         <div class="sectionInfos_grid__box">
           <span>TIMEZONE</span>
-          <p>UTC -05:00</p>
+          <p id="current_zone">UTC -05:00</p>
         </div>
         <div class="sectionInfos_grid__box">
           <span>ISP</span>
-          <p>SpaceX</p>
+          <p id="current_isp">SpaceX</p>
         </div>
       </div>
     </section>
+    </header>
     <!-- Map -->
     <div id="mapid"></div>
 
-    <script src="./scripts/myMap.js"></script>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>

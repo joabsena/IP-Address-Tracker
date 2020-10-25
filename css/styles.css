@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  z-index: 3;
+  position: relative;
 }
 
 .header_title {
@@ -31,12 +31,14 @@
   border: none;
   border-radius: 10px 0px 0px 10px;
   padding-left: 15px;
+  font-size: 18px;
 }
 
-.header_search__icon {
+.header_search__btn {
   height: 50px;
   width: 50px;
   background: #000;
+  border: none;
 
   display: flex;
   align-items: center;
@@ -50,7 +52,7 @@
 .sectionInfos {
   width: 70%;
   margin: 0 auto;
-  transform: translateY(-50%);
+  margin-top: 50px;
   z-index: 3;
 }
 
@@ -90,10 +92,11 @@
   font-weight: bold;
 }
 /* End Infos */
+
 /* Start Map */
 #mapid {
-  z-index: -1;
-  margin-top: -25vh;
-  height: 60vh;
+  z-index: 1;
+  height: 100%;
+  height: 75vh;
 }
 /* End Map */
