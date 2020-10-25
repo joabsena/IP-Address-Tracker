@@ -12,8 +12,6 @@ Obrigado por verificar este repositorio!
 
 O desafio é construir este aplicativo IP Address Tracker e fazê-lo parecer o mais próximo possível do design possível. Para obter os locais de endereço IP, usei a [API de geolocalização por IP da IPify](https://geo.ipify.org/). E Para gerar o mapa, fiz uso do [LeafletJS](https://leafletjs.com/).
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
 ## Features
 
 Os usuários devem ser capazes de:
