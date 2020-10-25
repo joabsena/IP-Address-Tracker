@@ -1,0 +1,33 @@
+/* Monitor */
+@media (max-width: 1024px) {
+  .sectionInfos_grid__box p {
+    font-size: 18px;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  .header_search__input {
+    width: 90%;
+    font-size: 14px;
+  }
+  .sectionInfos_grid__box p {
+    font-size: 14px;
+  }
+  .sectionInfos_grid__box.before::before {
+    right: -5px;
+  }
+}
+/* Mobile */
+@media (max-width: 580px) {
+  .sectionInfos {
+    margin-top: 20px;
+  }
+  .sectionInfos_grid {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding-top: 15px;
+  }
+  .sectionInfos_grid__box::before {
+    display: none;
+  }
+}

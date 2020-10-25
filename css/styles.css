@@ -73,12 +73,12 @@
 
   position: relative;
 }
-.sectionInfos_grid__box::before {
+.sectionInfos_grid__box.before::before {
   content: ' ';
   position: absolute;
   width: 1px;
-  right: 1px;
-  height: 30px;
+  right: -10px;
+  height: 50px;
   background-color: hsl(0, 0%, 59%);
 }
 
