@@ -2,7 +2,7 @@
 
 ![Design preview for the IP Address Tracker coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Bem-vindo(a)! 👋
 
 Obrigado por verificar este repositorio!
 
