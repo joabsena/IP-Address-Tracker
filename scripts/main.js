@@ -8,7 +8,7 @@ const currentIsp = document.querySelector('#current_isp');
 const enteredIp = document.querySelector('.header_search__input');
 const searchBtn = document.querySelector('.header_search__btn');
 
-var mymap = L.map('mapid').setView([-17.5408563, -39.7685152], 13);
+let mymap = L.map('mapid').setView([-17.5408563, -39.7685152], 13);
 
 L.tileLayer(
   'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
@@ -31,9 +31,9 @@ const updateMarker = (updateMarker = [-17.5408563, -39.7685152]) => {
 
 const getIp = (defaultIp) => {
   if (defaultIp === undefined) {
-    var ipUrl = `https://geo.ipify.org/api/v1?apiKey=at_fkrlvfpirtP6pOCGSplVjaRU9sbmg`;
+    let ipUrl = `https://geo.ipify.org/api/v1?apiKey=at_fkrlvfpirtP6pOCGSplVjaRU9sbmg`;
   } else {
-    var ipUrl = `https://geo.ipify.org/api/v1?apiKey=at_fkrlvfpirtP6pOCGSplVjaRU9sbmg&ipAddress=${defaultIp}`;
+    let ipUrl = `https://geo.ipify.org/api/v1?apiKey=at_fkrlvfpirtP6pOCGSplVjaRU9sbmg&ipAddress=${defaultIp}`;
   }
 
   fetch(ipUrl)
