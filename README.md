@@ -2,6 +2,8 @@
 
 ![Design preview for the IP Address Tracker coding challenge](./design/desktop-preview.jpg)
 
+[Acessar Projeto](https://modest-tereshkova-80d605.netlify.app/)
+
 ## Bem-vindo(a)! 👋
 
 Obrigado por verificar este repositorio!
